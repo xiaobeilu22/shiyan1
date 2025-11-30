@@ -37,7 +37,7 @@
     padding-left: 30px;
     border: none;/*设置无边框*/
     border-bottom: 2px solid #f4f4f4;
-    background: url("/uploads/搜索.png") no-repeat 2px center;
+    background: url("../uploads/搜索.png") no-repeat 2px center;
 }
 .head .search .input:focus{
     outline: none;
