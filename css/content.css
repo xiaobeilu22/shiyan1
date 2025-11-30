@@ -266,19 +266,26 @@
 /* 小图标 */
 .tubiao{
     display: flex;
+    justify-content: space-around;
 }
-.tubiao > .first{
-    margin-left: 18px;
+.tubiao > .a{
+    display: flex;
 }
-.tubiao > .second{
+.a > div > img{
+    width: 15px;
+    height: 15px;
+}
+.a > .first{
     margin-left: 5px;
 }
-.tubiao > .third{
+.a > .second{
+    margin-left: 8px;
+}
+.a > .third{
     margin-left: 230px;
 }
-.tubiao span{
+.a span{
     color: rgb(162, 161, 161);
     font-size: 15px;
     text-align: center;
-    
 }
